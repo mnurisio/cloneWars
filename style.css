@@ -1,6 +1,3 @@
-/* .bodyMargin{
-    margin-right: 2em;
-} */
 
 .welcome {
     padding: 12em;
@@ -31,7 +28,7 @@
 }
 
 .thirdImg{
-    object-fit: cover;
+    object-fit: contain;
 }
 
 
@@ -51,6 +48,9 @@
     .marginLeft {
         margin-left: 4em;
         padding: 4em;
+    }
+    .bodyMargin{
+        margin-right: 2em;
     }
     
 }
