@@ -2,35 +2,53 @@
     margin-right: 2em;
 } */
 
-.welcome{
+.welcome {
     padding: 12em;
 }
 
-.aboutUs{
+.aboutUs {
     padding-top: 4em;
     padding-bottom: 2em;
 }
-.services{
+
+.services {
     padding-top: 6em;
     padding-bottom: 2em;
 }
 
-.firstImg{
+.firstImg {
     width: 90%;
     /* margin-left: 2em; */
     border: 1em solid white;
 }
 
-.secondImg{
+.secondImg {
     width: 90%;
     /* margin-left: 2em; */
     border: 1em solid white;
 }
-.marginLeft{
+
+.marginLeft {
     margin-left: 4em;
     padding: 4em;
 }
 
-.dropBox{
+.dropBox {
     border-radius: 5px;
+}
+
+.bg-hero {
+    background-image: url(https://media.istockphoto.com/id/1312550959/photo/the-city-of-london-skyline-at-night-united-kingdom.webp?a=1&b=1&s=612x612&w=0&k=20&c=avJjWmvqswwEVCVeF8NNw6IZYDU-uEsTDsBYl6V0jMs=);
+    background-size: cover;
+}
+
+.profilePic{
+    max-width: 7%;
+}
+
+@media screen and (min-width: 768px) {
+    .nav{
+        
+    }
+    
 }
