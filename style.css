@@ -1,6 +1,7 @@
 
 .welcome {
-    padding: 12em;
+    padding-top: 12em;
+    padding-bottom: 12em;
 }
 
 .aboutUs {
@@ -28,10 +29,12 @@
 }
 
 .thirdImg{
-    object-fit: contain;
+    object-fit: cover;
 }
 
-
+.padRemoval{
+    padding-right: 0;
+}
 .dropBox {
     border-radius: 5px;
 }
