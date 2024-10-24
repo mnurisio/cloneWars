@@ -17,21 +17,23 @@
 }
 
 .firstImg {
-    width: 90%;
+    /* display: flex; */
+    /* object-fit: cover; */
+    min-width: 90%;
     /* margin-left: 2em; */
     border: 1em solid white;
 }
 
 .secondImg {
-    width: 90%;
+    min-width: 90%;
     /* margin-left: 2em; */
     border: 1em solid white;
 }
 
-.marginLeft {
-    margin-left: 4em;
-    padding: 4em;
+.thirdImg{
+    object-fit: cover;
 }
+
 
 .dropBox {
     border-radius: 5px;
@@ -45,10 +47,10 @@
 .profilePic{
     max-width: 7%;
 }
-
-@media screen and (min-width: 768px) {
-    .nav{
-        
+@media screen and (min-width: 768px){
+    .marginLeft {
+        margin-left: 4em;
+        padding: 4em;
     }
     
 }
