@@ -1,0 +1,33 @@
+/* .bodyMargin{
+    margin-right: 2em;
+} */
+
+.welcome{
+    padding: 12em;
+}
+
+.aboutUs{
+    padding-top: 4em;
+    padding-bottom: 2em;
+}
+.services{
+    padding-top: 6em;
+    padding-bottom: 2em;
+}
+
+.firstImg{
+    width: 90%;
+    /* margin-left: 2em; */
+    border: 1em solid white;
+}
+
+.secondImg{
+    width: 90%;
+    /* margin-left: 2em; */
+    border: 1em solid white;
+}
+.marginLeft{
+    margin-left: 4em;
+    padding: 4em;
+
+}
